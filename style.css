@@ -1,0 +1,35 @@
+body{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #10ff58;
+}
+
+#game-area{
+    width: 300px;
+    height: 450px;
+    border: 3px solid black;
+    background: #ffffff;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+#car{
+    width: 40px;
+    height: 70px;
+    background: rgb(255, 9, 70);
+    position: absolute;
+    bottom: 10px;
+    left: 130px;
+    border-radius: 5px;
+}
+
+.obstacle{
+    width: 40px;
+    height: 70px;
+    border-radius: 5px;
+    background: blue;
+    top: -80px;
+    position: absolute;
+    
+}
